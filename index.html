@@ -212,6 +212,23 @@
         </section>
 
     </main>
+    <script>
+
+        const drinks = document.querySelectorAll('.drink-item');
+
+        drinks.forEach(drink => {
+
+            drink.addEventListener('toggle', function () {
+                if (this.open) {
+
+                    this.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'nearest'
+                    });
+                }
+            });
+        });
+    </script>
 
 </body>
 
