@@ -1,0 +1,72 @@
+header,
+h2 {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 20px;
+    border-radius: 8px;
+
+
+}
+
+#cardapio-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.categoria {
+    text-align: center;
+}
+
+.drink-item {
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, #a1b8d8 0%, #b38728 35%, #fff1a8 50%, #9e7320 75%, #e6d37b 100%);
+    border-radius: 8px;
+    padding: 12px;
+    color: #111111;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+
+}
+
+summary {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.foto-drink {
+    display: block;
+    margin: 15px auto 0 auto;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.detalhe-drink {
+    text-align: left;
+    padding: 10px 15px;
+}
+
+details.drink-item p,
+details.drink-item summary {
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+body {
+
+
+    background-color: #000000;
+    /* Coloque o caminho exato da imagem abaixo */
+    background-image:
+        url(fotos/borbulhas\ 3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
